@@ -1,10 +1,10 @@
 :root{
-    --gradiente-input-ativo: hsl(249, 99%, 64%) to hsl(278, 94%, 30%);
+    --gradiente-input-ativo: linear-gradient( to right, hsl(249, 99%, 64%), hsl(278, 94%, 30%))1; 
     --erro-input: hsl(0, 100%, 66%);
-
     --light: hsl(0, 0%, 100%);
     --bordar-input-placehoder: hsl(270, 3%, 87%);
     --color-h4: hsl(279, 6%, 55%);
     --background-btn: hsl(278, 68%, 11%);
-
+    
 }
+

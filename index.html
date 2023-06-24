@@ -38,7 +38,7 @@
             </div>
         </section>
 
-        <section class="secao-dados">
+        <form class="secao-dados">
 
             <div class="name-dados">
                 <p>Cardholder Name</p>
@@ -52,11 +52,14 @@
            
 
             <div class="date">
-
+                
                 <div class="date-number">
                     <p>  Exp. Date (MM/YY)</p>
-                    <input type="date">
-                    <input type="date">
+                    <div class="mes-ano">
+                        <input type="number" placeholder="MM" >
+                        <input type="number" placeholder="YY" >
+                    </div>
+                   
                 </div>
                
                 <div class="date-cvc">
@@ -70,7 +73,8 @@
             <div class="btn">
                 <button> Confirm</button>
             </div>
-        </section> 
+            
+        </form> 
 
     </main>
 </body>

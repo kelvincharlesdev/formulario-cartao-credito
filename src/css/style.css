@@ -86,20 +86,61 @@ main .secao-dados{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2rem
+    gap: 4rem;
 }
 
 main .secao-dados p{
     color: var(--background-btn);
     text-transform: uppercase;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     letter-spacing: 0.2rem;
     
 }
 
 main .secao-dados input{
     height: 3rem;
-    width: 100%;
+    width: 80%;
     margin-top: 0.8rem;
     border: 1px solid var(--bordar-input-placehoder);
+    border-radius: 0.4rem;
+    padding-left: 1.5rem;
+    
+}
+
+main .secao-dados input::placeholder{
+    color: var(--bordar-input-placehoder);
+    
+}
+
+main .secao-dados input:focus{
+    border-image: var(--gradiente-input-ativo);
+}
+
+main .secao-dados .date{
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+}
+
+main .secao-dados .date .date-number {
+    width: 30%;
+}
+
+main .secao-dados .date .date-number .mes-ano{
+    display: flex;
+    gap: 2rem;
+}
+
+main .secao-dados .date .date-cvc{
+    width: 58%;
+}
+
+main .secao-dados .btn button{
+    width: 80%;
+    height: 4rem;
+    color: var(--bordar-input-placehoder);
+    background-color: var(--background-btn);
+    border-radius: 0.4rem;
+    font-size: 1.6rem;
+    margin-top: 2rem;
 }

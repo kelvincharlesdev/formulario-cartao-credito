@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    min-height: 100vh;
+    background: url(../imgs/bg-main-desktop.png) no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;   
+}
+
+
+main{
+    display: flex;
+    gap: 10rem;
+    
+}
+
+main .cards{
+    margin-left: 5rem;
+}
+
+main .cards .card-front{
+    background: url(../imgs/bg-card-front.png) center center no-repeat;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    width: 447px;
+   
+    padding: 3rem;
+    
+}
+
+main .cards .card-front .number-card {
+    margin-top: 5rem;
+    font-size: 2.9rem;
+    color: var(--light);
+    letter-spacing: 0.3rem;
+    
+}
+
+main .cards .card-front .dados-card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+
+main .cards .card-front .dados-card .name-card,
+main .cards .card-front .dados-card .value-card{
+    color: var(--light);
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+}
+
+main .cards .card-back{
+    background: url(../imgs/bg-card-back.png) center center no-repeat;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    width: 447px;
+    height: 245px;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    align-items: end;
+    justify-content: center;
+    
+}
+
+main .cards .card-back .security-card{
+    padding-right: 6rem;
+    color: var(--light);
+    letter-spacing: 0.2rem;
+}
+
+main .secao-dados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem
+}
+
+main .secao-dados p{
+    color: var(--background-btn);
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    letter-spacing: 0.2rem;
+    
+}
+
+main .secao-dados input{
+    height: 3rem;
+    width: 100%;
+    margin-top: 0.8rem;
+    border: 1px solid var(--bordar-input-placehoder);
+}

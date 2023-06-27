@@ -1,81 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="src/imgs/favicon-32x32.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="src/imgs/favicon-32x32.png"
+      type="image/x-icon"
+    />
 
-    <link rel="stylesheet" href="src/css/reset.css">
-    <link rel="stylesheet" href="src/css/variables.css">
-    <link rel="stylesheet" href="src/css/style.css">
-    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/variables.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/responsive.css" />
 
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <section class="cards">
-            <div class="card-front">
+      <section class="cards">
+        <div class="card-front">
+          <div class="image-card">
+            <img src="src/imgs/card-logo.svg" alt="Imagem do Cartão" />
+          </div>
 
-                <div class="image-card">
-                    <img src="src/imgs/card-logo.svg" alt="Imagem do Cartão">
-                </div>
-                
-                <p class="number-card">0000 0000 0000 0000</p>
+          <p class="number-card">0000 0000 0000 0000</p>
 
-                <div class="dados-card">
+          <div class="dados-card">
+            <p class="name-card">JANE APPLESEED</p>
 
-                    <p class="name-card">JANE APPLESEED </p>
-                    
-                    <p class="value-card">00/00</p>
-                    
-                </div>
-                
-            </div>
+            <p class="value-card">00/00</p>
+          </div>
+        </div>
 
-            <div class="card-back">
-                <p class="security-card">000</p>
-            </div>
-        </section>
+        <div class="card-back">
+          <p class="security-card">000</p>
+        </div>
+      </section>
 
+      <section class="wrapper-info">
         <form class="secao-dados">
+          <div class="name-dados">
+            <p>Cardholder Name</p>
+            <input
+              class="input-name"
+              type="text"
+              placeholder="e.g. Jane Appleseed"
+            />
+          </div>
 
-            <div class="name-dados">
-                <p>Cardholder Name</p>
-                <input class="input-name" type="text" placeholder="e.g. Jane Appleseed">
-            </div>
-           
-            <div class="number-dados">
-                <p>Card Number</p>
-                <input type="text" placeholder="e.g. 1234 5678 9123 0000">
-            </div>
-           
+          <div class="number-dados">
+            <p>Card Number</p>
+            <input type="text" placeholder="e.g. 1234 5678 9123 0000" />
+          </div>
 
-            <div class="date">
-                
-                <div class="date-number">
-                    <p>  Exp. Date (MM/YY)</p>
-                    <div class="mes-ano">
-                        <input type="number" placeholder="MM" >
-                        <input type="number" placeholder="YY" >
-                    </div>
-                   
-                </div>
-               
-                <div class="date-cvc">
-                    <p>CVC</p>
-
-                    <input type="text" placeholder="e.g. 123">
-                </div>
-
+          <div class="date">
+            <div class="date-number">
+              <p class="date-name">Exp. Date (MM/YY)</p>
+              <div class="mes-ano">
+                <input type="number" placeholder="MM" />
+                <input type="number" placeholder="YY" />
+              </div>
             </div>
 
-            <div class="btn">
-                <button> Confirm</button>
-            </div>
-            
-        </form> 
+            <div class="date-cvc">
+              <p>CVC</p>
 
+              <input type="text" placeholder="e.g. 123" />
+            </div>
+          </div>
+
+          <div class="btn">
+            <button>Confirm</button>
+          </div>
+        </form>
+
+        <div class="thanks desativado">
+          <div class="img">
+            <img
+              src="src/imgs/icon-complete.svg"
+              alt="Foto do formulario completo"
+            />
+          </div>
+
+          <h2>THANK YOU !</h2>
+          <p>We've added your card details</p>
+
+          <div class="btn">
+            <button>Continue</button>
+          </div>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>

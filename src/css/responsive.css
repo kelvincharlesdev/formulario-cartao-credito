@@ -1,0 +1,124 @@
+@media (max-width: 1040px) {
+  body {
+    background: url(../imgs/bg-main-mobile.png) no-repeat;
+    background-size: 100% 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+  }
+
+  main .cards {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  main .cards .card-front {
+    margin-top: -10.9rem;
+  }
+
+  main .cards .card-front {
+    max-width: 400px;
+    width: 100%;
+  }
+
+  main .cards .card-front .number-card {
+    font-size: 2.2rem;
+  }
+
+  main .cards .card-front .dados-card .name-card,
+  main .cards .card-front .dados-card .value-card {
+    font-size: 0.8rem;
+  }
+
+  main .cards .card-back {
+    background: url(../imgs/bg-card-back.png) center center no-repeat;
+    background-size: 100%;
+    max-width: 400px;
+    width: 100%;
+    margin-left: 6rem;
+  }
+
+  main .cards .card-back .security-card {
+    padding-right: 4rem;
+    font-size: 1.5rem;
+  }
+
+  main .wrapper-info .secao-dados input {
+    width: 100%;
+  }
+
+  main .secao-dados .date .date-cvc {
+    width: 49%;
+  }
+
+  main .wrapper-info .secao-dados .btn button {
+    width: 100%;
+  }
+
+  main .wrapper-info .thanks {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 528px) {
+  main .cards .card-front {
+    max-width: 350px;
+    width: 100%;
+  }
+
+  main .cards .card-front .number-card {
+    font-size: 2rem;
+  }
+  main .cards .card-front {
+    margin-top: -9.1rem;
+  }
+
+  main .cards .card-back {
+    background: url(../imgs/bg-card-back.png) center center no-repeat;
+    background-size: 100% 100%;
+    max-width: 350px;
+    width: 100%;
+    height: 210px;
+  }
+}
+
+@media (max-width: 428px) {
+  main {
+    width: 100%;
+    margin-top: 10rem;
+  }
+  main .cards .card-front {
+    background: url(../imgs/bg-card-front.png) center center no-repeat;
+    background-size: 100% 100%;
+    max-width: 285px;
+    width: 100%;
+    height: 175px;
+  }
+
+  main .cards {
+    margin-top: -10rem;
+  }
+
+  main .cards .card-front .number-card {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+  }
+  main .cards .card-front {
+    margin-top: -7.8rem;
+  }
+
+  main .cards .card-back {
+    max-width: 280px;
+    width: 100%;
+    height: 170px;
+  }
+}

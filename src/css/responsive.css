@@ -121,4 +121,8 @@
     width: 100%;
     height: 170px;
   }
+
+  main .wrapper-info .secao-dados .date .date-number .date-name {
+    font-size: 1.2rem;
+  }
 }

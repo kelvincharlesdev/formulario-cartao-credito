@@ -37,7 +37,7 @@ Projeto foi um desafio intermediário que peguei no FrontEnd Mentor, tem como ob
     . Na parte de THANKS contém um botão para que o usuário possa voltar e fazer um novo cartão.
          
 
-> Acesse a página on-line: <a href="https://kelvincharlesdev.github.io/formulario-cartao-credito/?" target=_blank> Calculator app </a>
+> Acesse a página on-line: <a href="https://formulario-cartao-credito-rosy.vercel.app/" target=_blank> Calculator app </a>
 
 ## 🖱️ A página
 

@@ -140,10 +140,17 @@ inputNumber.addEventListener("input", () => {
 const inputMes = document.getElementById("input-mes");
 let validMesAnoCard = document.querySelector(".value-card");
 
+let dataAtual = new Date();
+// Obter os últimos dois dígitos do ano atual
+let anoAtual = dataAtual.getFullYear() % 100;
+let mesAtual = dataAtual.getMonth() + 1;
+console.log(mesAtual);
+
 function checkInputMes() {
   const inputMesValue = inputMes.value.trim();
+  const inputAnoValue = inputAno.value;
 
-  if (inputMesValue === "" || inputMesValue < 1 || inputMesValue > 12) {
+  if (inputMesValue === "" || inputMesValue < 1 || inputMesValue > 12 || (inputAnoValue == anoAtual &&  inputMesValue < mesAtual )) {
     errorInput(inputMes, "Type a valid value");
     return false;
   } else {
@@ -189,11 +196,7 @@ const inputAno = document.getElementById("input-ano");
 function checkInputAno() {
   const inputAnoValue = inputAno.value;
 
-  let dataAtual = new Date();
-  // Obter os últimos dois dígitos do ano atual
-  let anoAtual = dataAtual.getFullYear() % 100;
-
-  if (inputAnoValue === "" || inputAnoValue <= anoAtual) {
+  if (inputAnoValue === "" || inputAnoValue < anoAtual ) {
     errorInput(inputAno, "Type a valid value");
     return false;
   } else {

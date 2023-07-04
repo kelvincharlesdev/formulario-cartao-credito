@@ -37,7 +37,7 @@ Projeto foi um desafio intermediário que peguei no FrontEnd Mentor, tem como ob
     . Na parte de THANKS contém um botão para que o usuário possa voltar e fazer um novo cartão.
          
 
-> Acesse a página on-line: <a href="https://formulario-cartao-credito-rosy.vercel.app/" target=_blank> Formulário de CArtão de Crédito </a>
+> Acesse a página on-line: <a href="https://formulario-cartao-credito-rosy.vercel.app/" target=_blank> Formulário de Cartão de Crédito </a>
 
 ## 🖱️ A página
 
